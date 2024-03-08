@@ -1,0 +1,12 @@
+# Copyright (c) 2019 Laczen
+# SPDX-License-Identifier: Apache-2.0
+
+description: WellL4 Simulated EEPROM device
+
+compatible: "wellsl4,sim-eeprom"
+
+include: eeprom-base.yaml
+
+properties:
+    size:
+      required: true

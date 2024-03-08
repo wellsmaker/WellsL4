@@ -1,0 +1,16 @@
+menu "Benchmark Options"
+
+module = BENCHMARK
+module-str = benchmark
+
+config EXECUTION_BENCHMARKING
+	bool "timing"
+	help
+	    benchmarking for timing.
+	    
+config TRACING
+	bool "tracing"
+	help 
+		benchmarking for trace.
+		
+endmenu

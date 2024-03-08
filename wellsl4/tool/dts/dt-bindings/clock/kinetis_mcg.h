@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2019 Vestas Wind Systems A/S
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#ifndef WELLSL4_INCLUDE_DT_BINDINGS_CLOCK_KINETIS_MCG_H_
+#define WELLSL4_INCLUDE_DT_BINDINGS_CLOCK_KINETIS_MCG_H_
+
+#define KINETIS_MCG_FIXED_FREQ_CLK	0
+
+#endif /* WELLSL4_INCLUDE_DT_BINDINGS_CLOCK_KINETIS_MCG_H_ */

@@ -1,0 +1,6 @@
+menu "API Options"
+
+module = API
+module-str = api
+
+endmenu

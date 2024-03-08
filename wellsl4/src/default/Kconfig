@@ -1,0 +1,24 @@
+menu "Default Options"
+
+module = DEFAULT
+module-str = default
+
+config NUM_DOMAINS
+	int
+	default 1
+	help
+	    Schedule Domain numbers
+
+config ENABLE_KERNEL_MCS
+	bool
+	default n
+	help 
+		Schedule MCS enable
+
+config KERNEL_TIMER_INT
+	int
+	help
+		Kernel timer interrupt IRQn value
+
+
+endmenu

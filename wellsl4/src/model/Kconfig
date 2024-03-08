@@ -1,0 +1,6 @@
+menu "Model Options"
+
+module = MODEL
+module-str = model
+
+endmenu

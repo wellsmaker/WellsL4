@@ -1,0 +1,6 @@
+menu "State Options"
+
+module = STATE
+module-str = state
+
+endmenu

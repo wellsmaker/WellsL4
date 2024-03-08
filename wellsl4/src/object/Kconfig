@@ -1,0 +1,6 @@
+menu "Object Options"
+
+module = OBJECT
+module-str = object
+
+endmenu

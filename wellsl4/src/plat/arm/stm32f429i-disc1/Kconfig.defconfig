@@ -1,0 +1,28 @@
+# STM32F4DISCOVERY board configuration
+
+# Copyright (c) 2016 Linaro Limited.
+# SPDX-License-Identifier: Apache-2.0
+
+source "$(BOARD_DIR)/Kconfig.defconfig.series"
+
+if BOARD_STM32F429I_DISC1
+
+config BOARD
+	default "stm32f429i_disc1"
+
+config UART_1
+    bool
+	default y
+	depends on UART_CONSOLE
+
+config I2C_3
+    bool
+	default y
+	depends on I2C
+
+config SPI_5
+    bool
+	default y
+	depends on SPI
+
+endif # BOARD_STM32F429I_DISC1
