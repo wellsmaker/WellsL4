@@ -1,4 +1,4 @@
-# WellsL4-OS
+# wells for L4
 The L4 microkernel follows the l4.x2.rev interface standard
 
 本项目参考Zephyr和seL4，尝试将微内核架构引入到微控制器领域，并有意解决微内核普遍存在的性能问题，采取一系列优化机制，例如fastIPC，Shmem等。接口文档参考l4-x2.pdf。
